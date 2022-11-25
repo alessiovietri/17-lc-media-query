@@ -15,6 +15,11 @@ body {
     margin: 0 auto;
 }
 
+section {
+    padding: 50px 0;
+    border-bottom: 3px solid black;
+}
+
 /* LIVE 1 */
 .live-1 .box {
     height: 200px;
@@ -35,4 +40,34 @@ body {
         margin-right: 0;
     }
 
+}
+
+/* LIVE 2 */
+.live-2 img {
+    border: 1px solid red;
+    height: 70px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .live-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .live-2 img {
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 568px) {
+
+    .live-2 img {
+        width: 70%;
+        height: auto;
+    }
+    
 }
