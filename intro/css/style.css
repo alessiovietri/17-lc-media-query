@@ -80,3 +80,9 @@ header {
     }
 
 } */
+
+@media screen and (min-width: 390px) and (max-width: 600px) {
+    .container {
+        background-color: lightgreen;
+    }
+}
