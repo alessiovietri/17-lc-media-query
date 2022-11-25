@@ -1,0 +1,38 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* LIVE 1 */
+.live-1 .box {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+
+@media screen and (min-width: 479px) {
+
+    .live-1 .box {
+        display: inline-block;
+        background-color: red;
+        /* margin: 10px 0 10px 10px; */
+    }
+
+    .live-1 .box:first-child {
+        margin-right: 0;
+    }
+
+}
