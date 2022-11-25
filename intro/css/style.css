@@ -11,8 +11,11 @@ body {
 }
 
 .container {
-    /* max-width: ?; */
-    /* margin: ?; */
+    max-width: 1200px;
+    margin: 0 auto;
+
+    background-color: lightcoral;
+    height: 100px;
 }
 
 /* HEADER */
@@ -20,12 +23,20 @@ header {
 
 }
 
-/* MAIN */
-main {
-    
+/* MEDIA QUERY */
+/* ESEMPIO DESKTOP FIRST */
+@media screen and (max-width: 768px) {
+
+    .container {
+        background-color: cyan;
+    }
+
 }
 
-/* FOOTER */
-footer {
-    
+@media screen and (max-width: 425px) {
+
+    .container {
+        background-color: red;
+    }
+
 }
