@@ -14,8 +14,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 
-    background-color: lightcoral;
     height: 100px;
+
+    /* Caso base desktop first */
+    /* background-color: lightcoral; */
+    
+    /* Caso base mobile first */
+    background-color: red;
 }
 
 /* HEADER */
@@ -25,7 +30,7 @@ header {
 
 /* MEDIA QUERY */
 /* ESEMPIO DESKTOP FIRST */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
     .container {
         background-color: cyan;
@@ -37,6 +42,24 @@ header {
 
     .container {
         background-color: red;
+    }
+
+} */
+
+
+/* ESEMPIO MOBILE FIRST */
+@media screen and (min-width: 426px) {
+
+    .container {
+        background-color: cyan;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+
+    .container {
+        background-color: lightcoral;
     }
 
 }
