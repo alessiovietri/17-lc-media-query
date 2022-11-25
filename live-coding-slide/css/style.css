@@ -87,3 +87,26 @@ section {
     }
 
 }
+
+/* LIVE 4 */
+.live-4 .box {
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .live-4 .box {
+        background-color: lightgreen;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .live-4 .box {
+        background-color: red;
+    }
+
+}
